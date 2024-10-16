@@ -19,7 +19,7 @@ class Lesson5Test {
 
         $$(".HeaderMenu-link").findBy(Condition.text("Solutions")).hover();
         $$(".HeaderMenu-dropdown-link").findBy(Condition.text("Enterprise")).click();
-        $("#hero-section-brand-heading").shouldHave(Condition.text("The AI-powered"));
+        $("#hero-section-brand-heading").shouldHave(Condition.text("The AI-powered developer platform."));
 
 
     }
